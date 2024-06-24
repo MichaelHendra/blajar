@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Embeded from './EmbeddedExpression';
+import Event from './Event';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Embeded />
+    <Event />
   </React.StrictMode>
 );
 
